@@ -1,0 +1,111 @@
+
+.avatar{
+width: 200px !important;
+height: 200px !important;
+}
+
+.item{
+height: 100% !important;
+    
+}
+
+.screen-content{
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.iconSkills {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 100px !important;
+
+}
+
+.card-header{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.boxTecnologias{
+    margin-top: 40px !important;
+}
+
+.boxPortifolio{
+   font-size: 1.1rem !important;
+
+}
+
+
+.portifolio {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.fundo{
+background-image: url(/assets/img/nature/bgfundo.jpg);
+background-repeat: center;
+background-repeat: center !important;
+}
+
+.pelicula{
+    background-color: rgba(35, 66, 145, 0.1);
+    color: #ffff
+   
+}
+
+
+.gradient{background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6));color:#fff}    
+
+.logo{
+    color: rgb(5, 26, 78) !important;
+}
+.nav-link{
+    color: rgb(5, 26, 78) !important;
+}
+
+.imageCompany {
+
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.boxTitleCompany{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+
+    .imgcompany{
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+    }
+
+    .nameCompany{
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: flex-end !important;
+        flex-direction: column !important;
+    }
+
+    @media (max-width: 767px) {
+
+        .nameCompany{
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-direction: column !important;
+            width: 50% !important;
+        }
+        .imgcompany{
+            width: 50% !important;
+        }
+        
+
+    }
