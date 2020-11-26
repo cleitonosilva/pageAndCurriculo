@@ -69,6 +69,11 @@ background-repeat: center !important;
     color: rgb(5, 26, 78) !important;
 }
 
+.organization{
+    background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6)) !important;
+    color : rgb(0, 0, 0) !important;
+}
+
 .imageCompany {
 
     width: 100px !important;
@@ -93,6 +98,20 @@ background-repeat: center !important;
         align-items: flex-end !important;
         flex-direction: column !important;
     }
+
+
+    .text-muted{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+
+    .color:hover
+    {
+        background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.4)) !important;
+
+    }
+
 
     @media (max-width: 767px) {
 
