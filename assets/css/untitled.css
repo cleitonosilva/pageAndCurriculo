@@ -61,7 +61,7 @@ background-repeat: center !important;
 
 .fundoLogistica{
 
-    background-image: url(/assets/img/tech/logistica.jpg);
+    background-image: url(/assets/img/tech/logistica6.jpg);
     background-repeat: center !important;
     margin-top: 40px !important;
 
@@ -82,6 +82,7 @@ background-repeat: center !important;
     margin-top: 20px !important;
     color: #ffff !important;
     margin-bottom: 35px !important;
+    font-size: 40px;
     
 
 }
@@ -181,12 +182,20 @@ background-repeat: center !important;
     .btncustomize {
 
         border: 2px solid rgba(253, 253, 253, 0.5);
-        margin-left: 15px;
+        /* margin-left: 15px; */
         margin-top: 30px;
-
     }
 
-.card{ 
+
+.boxEmpresas {  
+    display: flex !important;
+    justify-content:center !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+
+
+    .card{ 
     border: none !important;
 }
 
