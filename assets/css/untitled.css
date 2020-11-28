@@ -53,6 +53,12 @@ background-repeat: center;
 background-repeat: center !important;
 }
 
+.fundoMain{
+    background-image: url(/assets/img/sobremim/sobre6.jpg);
+    background-repeat: center;
+    background-repeat: center !important;
+    }
+
 .fundoTecnologia{
 
     background-image: url(/assets/img/tech/code.jpg);
@@ -66,6 +72,7 @@ background-repeat: center !important;
     margin-top: 40px !important;
 
 }
+
 
 .pelicula{
     background-color: rgba(35, 66, 145, 0.1) !important;
@@ -102,6 +109,9 @@ background-repeat: center !important;
 
 }
 
+
+
+
 .text-muted-black{
     color: rgb(0, 0, 0) !important;
 
@@ -125,6 +135,10 @@ background-repeat: center !important;
 .organization{
     background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6)) !important;
     color : #fff!important;
+}
+
+.organizationColor {
+color : rgb(0, 0, 0) !important;
 }
 
 .imageCompany {
@@ -175,10 +189,45 @@ background-repeat: center !important;
         background:rgba(255, 255, 255, 0) !important;
         
         border:none !important;
+    }
 
+    .contact-info { 
+    font-size: 0.9rem !important;
+    }
+
+    .listaop {  
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+        
+        
+
+
+    }
+
+    .boxList {  
+        display: flex !important;
+        flex-direction: row !important;
         
     }
 
+    .text-muted-write-ul{
+        color: #ffff !important;
+        display: flex !important; 
+        width: 50%;
+               
+    }
+
+    ul {  
+        padding-left: 15px !important;
+        margin-top: 0px;
+        
+    }
+
+    .teste  {  
+        display: flex !important;
+    }
     .btncustomize {
 
         border: 2px solid rgba(253, 253, 253, 0.5);
@@ -221,6 +270,18 @@ background-repeat: center !important;
         .imgcompany{
             width: 50% !important;
         }
-        
+        .teste  {  
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .text-muted-write-ul{
+            color: #ffff !important;
+            display: flex !important; 
+            width: 100%;
+            
+            
+                   
+        }
 
     }
