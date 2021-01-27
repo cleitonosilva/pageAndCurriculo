@@ -126,8 +126,7 @@ background-repeat: center !important;
     padding-top: 0px;
 }
 .portfolio-block {
-    padding-top:0px !important;
-    padding-bottom:0px !important;
+    padding-top:0 !important;
 }
 
 .gradient{background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6));color:#fff}    
