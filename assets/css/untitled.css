@@ -123,10 +123,10 @@ background-repeat: center !important;
 }
 
 .portfolio-block.cv {
-    padding-top: 0px;
+    padding-top: 20px;
 }
 .portfolio-block {
-    padding-top:0 !important;
+    padding-top:20px !important;
 }
 
 .gradient{background:linear-gradient(120deg,rgba(240, 240, 241, 0.1),rgba(130, 182, 219, 0.6));color:#fff}    
